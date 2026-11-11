@@ -1,16 +1,11 @@
 # Emily Martin — Research Website
-
-A responsive static website built with HTML, CSS, and vanilla JavaScript for GitHub Pages.
-
 ## Files
 - `index.html` — homepage with research projects, partnerships, outreach, and survey archive
 - `cv.html` — dedicated embedded CV page with download and direct-open links
 - `styles.css` — layout and visual design
 - `script.js` — mobile navigation and current year
-- `assets/mountain-lake.jpg` — supplied lake photograph, used as the hero and field image
-- `assets/emily-martin.jpg` — supplied profile photograph
-- `assets/Emily-Martin-CV.pdf` — CV PDF download
-
+- `assets`- folder for supplied visuals for webpage
+- 
 ## Publish with GitHub Pages
 1. Create a new GitHub repository (for a personal site, name it `YOUR-USERNAME.github.io`).
 2. Upload all files and the `assets` folder to the repository root.
