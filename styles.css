@@ -1,3 +1,225 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;color:#26372f;background:#fbfaf6;font-family:"DM Sans",sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}.site-header{height:78px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#fbfaf6;position:sticky;top:0;z-index:10;border-bottom:1px solid #e9e8df}.wordmark{font-family:"Playfair Display",serif;font-size:1.45rem;font-weight:600;letter-spacing:-.03em}.wordmark span{color:#a5a77b}.nav{display:flex;align-items:center;gap:clamp(15px,2.3vw,34px);font-size:.84rem}.nav a{transition:color .2s}.nav a:hover,.text-link:hover{color:#8b9066}.nav-contact{border:1px solid #7d8669;padding:8px 17px;border-radius:2px}.menu-toggle{display:none;background:none;border:0;font-size:1.5rem;color:#26372f}.hero{min-height:1150px;height:min(95vh,1000px);position:relative;display:flex;align-items:center;background:url("assets/mountain-lake.jpg") center 54%/cover no-repeat;color:white}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,28,28,.72),rgba(12,28,28,.25) 68%,rgba(12,28,28,.08))}.hero-content{position:relative;z-index:1;width:min(780px,86%);margin-left:10%;padding:70px 0}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:700;color:#7b8463;margin:0 0 18px}.eyebrow.light{color:#e0e5d3}.hero h1,.section-heading h2,.intro h2,.applied h2,.field-note h2,.publication-layout h2,.teaching h2,.contact h2{font-family:"Playfair Display",serif;font-weight:500;letter-spacing:-.035em;line-height:1.12}.hero h1{font-size:clamp(3.3rem,7vw,6.2rem);margin:0 0 22px}.hero-subtitle{font-size:1.08rem;max-width:610px;color:#f0f2eb}.hero-actions{display:flex;align-items:center;gap:28px;margin-top:34px}.button{display:inline-block;padding:13px 22px;font-size:.83rem;font-weight:700;letter-spacing:.02em;border:1px solid transparent;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-light{background:#f7f6ef;color:#26372f}.button-dark{background:#344a3c;color:white}.text-link{font-weight:700;font-size:.88rem;border-bottom:1px solid #9da184;padding-bottom:4px}.text-link span{padding-left:8px}.light-link{color:white;border-color:rgba(255,255,255,.6)}.hero-caption{position:absolute;right:7%;bottom:22px;font-size:.72rem;color:#f0f2eb;letter-spacing:.05em}.section-wrap{width:min(1120px,86%);margin:auto}.intro{display:grid;grid-template-columns:.85fr 1.15fr;gap:9%;align-items:center;padding-top:115px;padding-bottom:115px}.intro-photo{height:500px;overflow:hidden}.intro-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 35%}.intro h2,.applied h2,.publication-layout h2,.teaching h2{font-size:clamp(2.3rem,4vw,3.5rem);margin:0 0 24px}.intro-copy p:not(.eyebrow),.applied-copy>p:not(.eyebrow),.teaching-copy p{color:#59635b;font-size:.96rem}.intro-copy .text-link{display:inline-block;margin-top:12px}.section-tint{background:#f0f1e9}.research{padding:105px 0 112px}.section-heading{max-width:740px;margin-bottom:48px}.section-heading h2{font-size:clamp(2.5rem,4.6vw,4rem);margin:0 0 20px}.section-lede{font-size:1.03rem;color:#647067;max-width:700px}.research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.research-card{background:#fbfaf6;padding:30px 28px 32px;min-height:275px;border-top:3px solid #9ca27d}.card-number{font-family:"Playfair Display",serif;color:#9ca27d;font-size:1.45rem}.research-card h3,.applied-item h3,.publication h3{font-family:"Playfair Display",serif;font-size:1.35rem;line-height:1.3;font-weight:600;margin:16px 0 10px}.research-card p,.applied-item p,.publication p{font-size:.9rem;color:#687168}.tag{display:inline-block;margin-top:12px;padding:5px 10px;background:#eef0e7;color:#68724f;font-size:.7rem;letter-spacing:.04em}.applied{display:grid;grid-template-columns:1fr 1fr;gap:9%;padding-top:115px;padding-bottom:115px;align-items:center}.applied-copy .button{margin-top:18px}.applied-panel{border-left:1px solid #d8dace;padding-left:35px}.applied-item{display:grid;grid-template-columns:42px 1fr;gap:15px;padding:19px 0;border-bottom:1px solid #e1e2d9}.applied-item:first-child{padding-top:0}.applied-item:last-child{border:0;padding-bottom:0}.applied-icon{font-family:"Playfair Display",serif;color:#8c956d;font-size:1.25rem;padding-top:13px}.applied-item h3{margin:5px 0 5px}.applied-item p{margin:0}.field-note{min-height:470px;display:grid;grid-template-columns:1.1fr .9fr;background:#263c32;color:white}.field-note-image{background:url("assets/mountain-lake.jpg") center 64%/cover no-repeat;min-height:470px}.field-note-copy{padding:75px clamp(35px,7vw,100px);align-self:center}.field-note h2{font-size:clamp(2.4rem,4vw,3.7rem);margin:0 0 20px}.field-note-copy>p:last-child{color:#e0e5dc;max-width:430px}.publications{padding:105px 0}.publication-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:10%}.publication-list{border-top:1px solid #d9dbd0}.publication{padding:22px 0;border-bottom:1px solid #d9dbd0}.pub-type,.pub-meta{font-size:.72rem;letter-spacing:.04em;color:#81896b}.publication h3{margin:8px 0}.publication p{margin:6px 0}.pub-meta{font-style:italic}.teaching{display:grid;grid-template-columns:1fr 1fr;gap:10%;padding-top:105px;padding-bottom:110px}.teaching-copy{padding-top:25px}.contact{background:#344a3c;color:white;padding:90px 0}.contact-inner{max-width:850px}.contact h2{font-size:clamp(2.7rem,5vw,4.3rem);margin:0 0 20px}.contact-inner>p:not(.eyebrow){max-width:610px;color:#e0e5dc;margin-bottom:28px}.footer{padding:28px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fbfaf6}.footer p{font-size:.75rem;color:#7b8278;margin:0}.footer .wordmark{font-size:1.2rem}@media(max-width:800px){.site-header{height:70px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:69px;left:0;right:0;background:#fbfaf6;padding:18px 7% 25px;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e9e8df}.nav.open{display:flex}.hero{min-height:610px;height:75vh;background-position:58% center}.hero-content{margin-left:7%}.intro{grid-template-columns:1fr;gap:38px;padding-top:75px;padding-bottom:75px}.intro-photo{height:430px;max-width:520px}.research-grid{grid-template-columns:1fr}.research-card{min-height:0}.applied{grid-template-columns:1fr;gap:40px;padding-top:75px;padding-bottom:75px}.field-note{grid-template-columns:1fr}.field-note-image{min-height:330px}.field-note-copy{padding:55px 7%}.publication-layout,.teaching{grid-template-columns:1fr;gap:35px}.publications,.research{padding:75px 0}.teaching{padding-top:75px;padding-bottom:75px}.teaching-copy{padding-top:0}.footer{flex-wrap:wrap}.footer p{width:100%}}@media(max-width:480px){.hero h1{font-size:3.1rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:18px}.hero-caption{left:7%;right:auto}.intro-photo{height:360px}.applied-panel{padding-left:18px}.contact{padding:70px 0}}
 
 .cv-note{font-size:.82rem;color:#687168;padding:18px 0;border-bottom:1px solid #d9dbd0}.publication a.pub-meta{display:inline-block;text-decoration:underline;text-underline-offset:3px}
+
+/* Standalone CV page */
+.cv-back{font-size:.9rem;font-weight:700;color:#344a3c}
+.cv-back:hover{text-decoration:underline}
+.cv-page{padding:80px 0 100px}
+.cv-page h1{font-family:"Playfair Display",serif;font-size:clamp(2.8rem,6vw,4.7rem);font-weight:500;line-height:1.12;margin:0 0 16px}
+.cv-intro{color:#59635b;max-width:720px}
+.cv-actions{display:flex;gap:26px;align-items:center;flex-wrap:wrap;margin:30px 0}
+.pdf-container{overflow:hidden;background:#e7e9e5;border:1px solid #d7ded7;border-radius:6px;box-shadow:0 15px 42px rgba(38,55,47,.07)}
+.pdf-container iframe{display:block;width:100%;height:min(88vh,1100px);min-height:580px;border:0}
+.pdf-fallback{font-size:.85rem;color:#647067}
+.pdf-fallback a{border-bottom:1px solid #7d8669}
+.intro-cv{margin-left:22px}
+/* Citizen-science project */
+.survey-project{background:#f5f7f3}
+.closed-label{display:inline-block;background:#e7e5df;color:#4d574d;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:5px 11px;border-radius:100px;margin:5px 0 15px}
+.survey-photo{position:relative;display:flex;justify-content:center;background:#edf0ee;overflow:hidden;border-radius:5px}
+.survey-photo img{display:block;width:100%;max-width:430px;max-height:640px;object-fit:contain}
+.survey-photo-overlay{position:absolute;top:12px;right:12px;color:#fff;background:#263c32;padding:8px 14px;font-size:.79rem;font-weight:700;letter-spacing:.02em;border-radius:4px;box-shadow:0 3px 10px #263c3255}
+/* Selected CV highlights */
+.outreach{padding:105px 0}
+.outreach-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.outreach-card{padding:29px;background:#fbfaf6;border-top:3px solid #9ca27d}
+.outreach-card h3,.recognition h3{font-family:"Playfair Display",serif;font-size:1.4rem;font-weight:600;line-height:1.3;margin:8px 0 14px}
+.outreach-card p:not(.eyebrow),.recognition>p{font-size:.94rem;color:#59635b}
+.outreach-card .project-link{display:block;margin-top:12px;font-size:.88rem;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.recognition{margin-top:36px;padding:32px 0;border-top:1px solid #d9dbd0;display:grid;grid-template-columns:1fr 1.6fr auto;gap:24px;align-items:start}
+.recognition h3{margin:0}
+.recognition>p{margin:0}
+@media(max-width:900px){.outreach-grid{grid-template-columns:1fr}.recognition{grid-template-columns:1fr;gap:12px}}
+@media(max-width:800px){.outreach{padding:75px 0}.cv-page{padding:65px 0}.pdf-container iframe{height:75vh;min-height:430px}.intro-cv{margin-left:14px}}
+@media(max-width:480px){.intro-cv{display:inline-block;margin-left:0;margin-top:14px}.pdf-container iframe{min-height:340px}}
+
+/* Professional profiles */
+.intro-copy a[href*="symonslab.com"],.cv-profile-links a{text-decoration:underline;text-underline-offset:3px}
+.contact-profiles{display:flex;flex-wrap:wrap;gap:14px 26px;margin-top:28px}
+.contact-profiles a{color:#eef1e7;font-size:.9rem;border-bottom:1px solid #a7b5a5;padding-bottom:3px;overflow-wrap:anywhere}
+.contact-profiles a:hover{color:#fff;border-color:#fff}
+.cv-profile-links{color:#59635b;font-size:.95rem;margin:12px 0}
+.cv-profile-links a:hover{color:#344a3c}
+
+/* Compact survey photo with archival flyer */
+.survey-media{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.7fr);gap:12px;min-width:0;align-items:start}
+.survey-trout-photo{margin:0;min-width:0}
+.survey-trout-photo img{width:100%;height:220px;object-fit:cover;object-position:center 53%;border-radius:5px}
+.survey-trout-photo figcaption{font-size:.72rem;color:#687168;margin-top:6px;line-height:1.4}
+.survey-media .survey-photo{min-width:0}
+.survey-media .survey-photo img{width:100%;max-height:220px;object-fit:cover;object-position:top}
+.survey-media .survey-photo-overlay{font-size:.62rem;padding:5px 8px;top:7px;right:7px}
+@media(max-width:520px){.survey-media{grid-template-columns:1fr 1fr}.survey-trout-photo img{height:185px}.survey-media .survey-photo img{max-height:185px}}
+
+/* Emphasized About Me statement */
+.about-statement {margin:1.35rem 0;font-size:1.05rem !important;line-height:1.65;color:#26372f !important;}
+.about-statement strong {font-weight:700;}
+
+/* Teaching photo and Rooted landscape image (with existing-image fallbacks). */
+.teaching {grid-template-columns:minmax(0,.75fr) minmax(0,.7fr) minmax(0,1.25fr);gap:30px;align-items:start;}
+.teaching-photo {margin:0;overflow:hidden;border-radius:4px;}
+.teaching-photo img {display:block;width:100%;height:270px;object-fit:cover;object-position:center;}
+.field-note-image {background-image:url("assets/rooted-photo.jpg"),url("assets/mountain-lake.jpg");background-position:center,center 64%;background-size:cover,cover;}
+@media(max-width:1050px){.teaching{grid-template-columns:1fr 1fr}.teaching-copy{grid-column:1/-1;padding-top:0}}
+@media(max-width:650px){.teaching{grid-template-columns:1fr}.teaching-copy{grid-column:auto}.teaching-photo img{height:245px}}
+
+/* Citizen-science reflection */
+.survey-reflection { margin-top: 1rem; }
+
+/* Unified editorial / circular-photo layout */
+.interests-section { padding: 100px 0 112px; }
+.interests-section .section-heading {max-width:850px;margin-bottom:36px;}
+.interest-list {max-width:960px;margin:0 auto;}
+.interest-row { display:grid;grid-template-columns:168px minmax(0,1fr);gap:38px;align-items:center;padding:32px 0;border-bottom:1px solid #d6dace;}
+.interest-row:first-child {border-top:1px solid #d6dace;}
+.interest-image {width:168px;height:168px;border-radius:50%;overflow:hidden;background:#dbe2d8;flex-shrink:0;}
+.interest-image img {display:block;width:100%;height:100%;object-fit:cover;}
+.interest-copy h3 {font:600 clamp(1.4rem,2.3vw,1.85rem)/1.25 "Playfair Display",serif;letter-spacing:-.025em;margin:0 0 10px;color:#26372f;}
+.interest-copy p {font-size:.95rem;line-height:1.75;color:#59635b;margin:0 0 9px;}
+.interest-link {color:#344a3c;font-weight:700;font-size:.84rem;text-decoration:underline;text-underline-offset:4px;}
+.interest-status {display:inline-block;font-size:.69rem!important;text-transform:uppercase;letter-spacing:.09em;font-weight:700;color:#65704f!important;background:#e6e9dd;padding:4px 10px;margin-bottom:10px!important;border-radius:18px;}
+.survey-archive {margin-top:14px;font-size:.86rem;color:#344a3c;}
+.survey-archive summary {cursor:pointer;font-weight:700;text-decoration:underline;text-underline-offset:3px;}
+.survey-archive img {display:block;max-width:300px;width:100%;height:auto;margin-top:15px;border-radius:5px;}
+.survey-archive p {font-size:.78rem;}
+/* Match other sections: simple circular supporting photo and consistent alignment */
+.intro {grid-template-columns:240px minmax(0,1fr);gap:7%;align-items:start;}
+.intro-photo {width:240px;height:240px;border-radius:50%;margin-top:14px;}
+.intro-photo img {width:100%;height:100%;object-fit:cover;object-position:center 34%;}
+.teaching {grid-template-columns:168px minmax(0,1fr);gap:38px;align-items:start;}
+.teaching-photo {width:168px;height:168px;border-radius:50%;overflow:hidden;margin:8px 0 0;}
+.teaching-photo img {height:100%;width:100%;object-fit:cover;object-position:center 38%;}
+.teaching > div {min-width:0;}
+.teaching .teaching-copy {grid-column:2;padding-top:0;}
+/* Freshwater-Fire brand mark shown entirely, at the left */
+.network-row {display:grid;grid-template-columns:144px minmax(0,1fr);gap:25px;align-items:start;}
+.network-media {width:144px;max-width:100%;display:flex;align-items:center;justify-content:center;background:#f2f4ef;border-radius:12px;padding:12px;}
+.network-media .network-logo {position:static!important;float:none!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;margin:0!important;}
+.network-body {min-width:0;}
+/* The panorama is displayed at its native aspect ratio; absolutely no cover cropping */
+.field-note {display:block;min-height:0;background:#263c32;}
+.field-note-image {width:100%;min-height:0!important;background:none!important;}
+.field-note-image img {display:block;width:100%;height:auto;object-fit:contain;}
+.field-note-copy {padding:38px max(7%,calc((100vw - 1120px)/2));}
+.field-note h2 {max-width:720px;}
+/* On narrow screens, keep the same readable relationship between image and copy */
+@media(max-width:800px){
+ .interests-section {padding:70px 0 80px;}
+ .interest-row {grid-template-columns:118px minmax(0,1fr);gap:22px;padding:26px 0;}
+ .interest-image {width:118px;height:118px;}
+ .intro {grid-template-columns:1fr;gap:24px;}
+ .intro-photo {width:200px;height:200px;}
+ .teaching {grid-template-columns:118px minmax(0,1fr);gap:22px;}
+ .teaching-photo {width:118px;height:118px;}
+ .teaching .teaching-copy {grid-column:2;}
+ .network-row {grid-template-columns:120px minmax(0,1fr);gap:18px;}
+ .network-media {width:120px;}
+ .field-note-copy {padding:34px 7%;}
+}
+@media(max-width:520px){
+ .interest-row {grid-template-columns:90px minmax(0,1fr);gap:17px;align-items:start;}
+ .interest-image {width:90px;height:90px;}
+ .interest-copy h3 {font-size:1.35rem;}
+ .interest-copy p {font-size:.87rem;line-height:1.65;}
+ .teaching {grid-template-columns:90px minmax(0,1fr);gap:17px;}
+ .teaching-photo {width:90px;height:90px;}
+ .network-row {grid-template-columns:1fr;}
+ .network-media {width:160px;}
+}
+
+
+/* November 2026 visual refinements: consistent larger circular photos */
+.interest-list {max-width:1050px;}
+.interest-row {grid-template-columns:198px minmax(0,1fr);gap:45px;padding:36px 0;}
+.interest-image {width:198px;height:198px;}
+.intro {grid-template-columns:270px minmax(0,1fr);}
+.intro-photo {width:270px;height:270px;}
+.teaching {grid-template-columns:255px minmax(0,1fr);gap:48px;}
+.teaching-photo {width:255px;height:255px;}
+.teaching .teaching-copy {grid-column:2;}
+/* Consolidated applied science and initiatives section */
+.partnerships {padding:90px 0 100px;}
+.partnership-grid {display:grid;grid-template-columns:1fr;gap:20px;}
+.partnership-card {padding:30px 34px;background:#fbfaf6;border:1px solid #dbe0d4;border-radius:8px;min-width:0;}
+.partner-row,.network-row {display:grid;grid-template-columns:215px minmax(0,1fr);gap:32px;align-items:center;}
+.partner-media,.network-media {width:215px;max-width:100%;display:flex;justify-content:center;align-items:center;padding:8px;background:transparent;border-radius:0;}
+.crowley-media img {display:block;width:190px;height:190px;object-fit:contain;}
+.network-media {width:215px;}
+.network-media .network-logo {display:block;width:100%!important;max-width:210px!important;height:auto!important;max-height:none!important;object-fit:contain!important;}
+.partner-body,.network-body {min-width:0;}
+.partnership-card-top h3 {margin:0 0 8px;}
+.partnership-card-top .partnership-kicker {display:block;margin:0 0 15px;color:#6c785c;font-weight:700;letter-spacing:.02em;}
+.partnership-card p {margin:0 0 13px;color:#59635b;line-height:1.7;}
+/* The Rooted panorama is on the LEFT; all of it is visible, never cover-cropped. */
+.field-note {display:grid;grid-template-columns:1fr 1fr;align-items:stretch;min-height:360px;background:#263c32;}
+.field-note-image {display:flex;align-items:center;justify-content:center;min-height:360px!important;background:#1a302c!important;overflow:hidden;}
+.field-note-image img {width:100%;height:auto;max-height:100%;object-fit:contain;display:block;}
+.field-note-copy {padding:60px clamp(30px,5vw,95px);align-self:center;}
+/* Prevent nav links from colliding on laptop screens. */
+.site-header {gap:24px;}
+.nav {gap:clamp(11px,1.5vw,24px);white-space:nowrap;}
+@media(max-width:1100px){
+ .site-header{height:70px;}
+ .menu-toggle{display:block;cursor:pointer;}
+ .nav{display:none;position:absolute;top:69px;left:0;right:0;background:#fbfaf6;padding:18px 7% 25px;flex-direction:column;align-items:flex-start;gap:14px;white-space:normal;border-bottom:1px solid #e9e8df;box-shadow:0 12px 18px rgba(0,0,0,.05);}
+ .nav.open{display:flex;}
+}
+@media(max-width:800px){
+ .interest-row{grid-template-columns:155px minmax(0,1fr);gap:26px;}
+ .interest-image{width:155px;height:155px;}
+ .teaching{grid-template-columns:205px minmax(0,1fr);gap:24px;}
+ .teaching-photo{width:205px;height:205px;}
+ .intro{grid-template-columns:1fr;}
+ .intro-photo{width:235px;height:235px;}
+ .field-note{grid-template-columns:1fr;}
+ .field-note-image{min-height:0!important;}
+ .field-note-image img{max-height:none;height:auto;width:100%;}
+ .partner-row,.network-row{grid-template-columns:160px minmax(0,1fr);gap:18px;}
+ .partner-media,.network-media{width:160px;}
+ .crowley-media img{width:150px;height:150px;}
+ .network-media .network-logo{max-width:160px!important;}
+}
+@media(max-width:520px){
+ .interest-row{grid-template-columns:112px minmax(0,1fr);gap:18px;align-items:start;}
+ .interest-image{width:112px;height:112px;}
+ .teaching{grid-template-columns:140px minmax(0,1fr);gap:20px;}
+ .teaching-photo{width:140px;height:140px;}
+ .teaching .teaching-copy{grid-column:1/-1;}
+ .partner-row,.network-row{grid-template-columns:1fr;gap:14px;}
+ .partner-media,.network-media{width:200px;justify-content:flex-start;}
+ .crowley-media img{width:175px;height:175px;}
+ .network-media .network-logo{max-width:200px!important;}
+ .partnership-card{padding:24px 20px;}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+
+/* November update: about, teaching alignment, partner logos, and full vertical lake photo */
+.about-lead {font-size:1.13rem!important;font-weight:650;line-height:1.6;color:#314a3b!important;margin:2px 0 24px;max-width:67ch;}
+.teaching {align-items:start;}
+.teaching > div {min-width:0;}
+.teaching .teaching-copy {display:block;grid-column:auto!important;padding-top:0!important;margin-top:12px;}
+.teaching .teaching-copy p:first-child {margin-top:0;}
+.teaching h2 {margin-bottom:16px;}
+.partner-row,.network-row {grid-template-columns: minmax(225px,310px) minmax(0,1fr);gap:36px;align-items:center;}
+.partner-media,.network-media {width:100%;max-width:310px;padding:0;}
+.crowley-media img {height:auto;width:100%;max-width:240px;object-fit:contain;}
+.network-media .network-logo {height:auto!important;width:100%!important;max-width:310px!important;max-height:none!important;object-fit:contain!important;}
+.field-note {grid-template-columns:minmax(0,44%) minmax(0,56%);min-height:0;}
+.field-note-image {min-height:0!important;height:auto;align-self:stretch;background:#263c32!important;overflow:visible;display:flex;align-items:center;}
+.field-note-image img {width:100%;height:auto;max-height:none!important;object-fit:contain;object-position:center;}
+.field-note-copy {padding:clamp(36px,5vw,78px);align-self:center;}
+@media(max-width:800px){
+ .partner-row,.network-row{grid-template-columns:minmax(135px,200px) minmax(0,1fr);gap:22px;}
+ .partner-media,.network-media{width:100%;max-width:200px;}
+ .crowley-media img{max-width:175px;height:auto;}
+ .network-media .network-logo{max-width:200px!important;}
+ .field-note{grid-template-columns:1fr;}
+ .field-note-image{width:100%;max-width:520px;margin:0 auto;}
+}
+@media(max-width:520px){
+ .partner-row,.network-row{grid-template-columns:1fr;}
+ .partner-media,.network-media{width:100%;max-width:260px;}
+ .network-media .network-logo{max-width:260px!important;}
+ .teaching .teaching-copy{margin-top:12px;}
+}
